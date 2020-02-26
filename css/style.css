@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#cabecera{
+    float: left;
+    margin-top: 100px;
+    margin-left: 20%;
+    height: 100px;
+    width: 350px;
+    background: #DBA901;
+    border-radius: 10px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); 
+    cursor: pointer;
+    transition: 1s;
+}
+#cabecera:hover{
+    background: #DF0101;
+}
+#titulo{
+    font-size: 40px;
+    float: left;
+    margin-top: 25px; 
+    margin-left: 25px;
+}
+#bobo{
+    height: 600px;
+    width: 400px;
+    margin-left: 50%;
+}
+#bobo img{
+    height: 100%;
+    width: 100%;
+}
+#boludes{
+    display: none;
+   float: left;
+   height: 100px;
+   width: 310px; background: #DBA901;
+   margin-top: 50px;
+   padding: 20px;
+   border-radius: 20px;
+   -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+   -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); 
+   cursor: pointer;
+   transition: 1s;
+}
